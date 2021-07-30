@@ -1,0 +1,25 @@
+@media print {
+    body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 20px auto;
+        min-height: 96.7%;
+        width: 85%;
+        zoom: 80%;
+    }
+    header div h1 {
+        font-size: 45px;
+    }
+    
+   section {
+        display: none;
+    }
+    article {
+        border-top: 2px solid black;
+        margin-top: -120px;
+    }
+    main {
+        margin-top: -20px;
+    }
+    #aside {
+        display: none;
+}

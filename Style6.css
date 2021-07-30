@@ -1,0 +1,106 @@
+html {
+    background-image: linear-gradient(to bottom,red,black);
+}
+
+header {
+    line-height: 82px;
+    position:relative;
+    display: inline;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+#img1 {
+    float: left;
+    margin-left: 0px;
+    margin-right: -900px;
+}
+
+body{
+    min-height: 96.7%;
+    width: 85%;
+    background-color: white;
+    margin: 20px auto;
+    border: 6px solid black;
+}
+
+main {
+    width: 66%;
+    height: 650px;
+    float: left;
+}
+
+main h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 5px 10px
+}
+
+main p{
+    margin-left: 11px;
+}
+
+main img {
+    margin: 13px 10px;
+    margin-bottom: 5px;
+    border: solid black 2px;
+}
+
+
+aside {
+    text-decoration: underline;
+    margin-left: 15px;
+    width: 33%;
+    height: 650px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height 200px;
+    margin-top: -200px;
+    margin-left: 11px;
+}
+
+#nav_menu ul {
+    background-color: lightgray;
+    list-style-type:none;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#nav_menu ul li {
+    display: inline-block;
+    margin: -3em 5em;
+}
+#nav_menu ul li a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+
+#nav_menu ul li a:hover {font-size: 1.8em; 
+                         color: red;}
+table {
+    border: 3px solid black;
+    margin: 1em;
+    font-size: 16px;
+}
+thead {
+    font-size: 25px;
+    color: white;
+    background-color: red;
+}
+tbody{
+    background-image: linear-gradient(to bottom,red,black);
+    color: white;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 3px;
+}
